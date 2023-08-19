@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "seaborn introduction"
+version = "0.1.0"
+description = "Week 1 of Intermediate Data Visualization with Seaborn (Datacamp)"
+authors = ["Eduardo Melendez <edgame127@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+seaborn = "^0.12.2"
+pandas = "^2.0.3"
+pyqt6 = "^6.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
